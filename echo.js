@@ -21,7 +21,6 @@ function error(ws, err="error: unspecified") {
 
 wss.on('connection', ws => {
 	ws.on('message', m => {
-		console.log(m)
 		// Emit to 'json' and 'not-json' as appropriate
 		if (ws.listenerCount('json') + ws.listenerCount('not-json') > 0) {
 			ws.emit(...determineJSON(m))
