@@ -1,0 +1,20 @@
+{
+  "name": "JSON echo",
+  "version": "0.0.1",
+  "engines": {
+    "node": "5.9.1"
+  },
+  "main": "echo.js",
+  "scripts": {
+    "start": "node echo.js"
+  },
+  "dependencies": {
+    "ws": "1.1.1",
+    "wrtc": "0.0.61"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zaz/jsonecho"
+  },
+  "license": "public domain"
+}
