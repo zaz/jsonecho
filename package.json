@@ -2,7 +2,7 @@
   "name": "JSON echo",
   "version": "0.0.1",
   "engines": {
-    "node": "5.9.1"
+    "node": "6.8.1"
   },
   "main": "echo.js",
   "scripts": {
