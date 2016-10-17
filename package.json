@@ -1,5 +1,5 @@
 {
-  "name": "JSON echo",
+  "name": "jsonecho",
   "version": "0.0.1",
   "engines": {
     "node": "6.8.1"
