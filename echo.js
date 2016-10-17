@@ -1,6 +1,6 @@
-const port = 1111
+const PORT = process.env.PORT || 3000
 const WS = require('ws')
-const wss = new WS.Server({port: port})
+const wss = new WS.Server({port: PORT})
 
 let id_to_ws = {}
 let ws_to_id = {}
@@ -51,5 +51,5 @@ wss.on('connection', ws => {
 		ws.send(`That's right. ${m}`)    // XXX DEBUG
 	})
 
-	ws.send(`Connected on ${port}.`)
+	ws.send(`Connected on ${PORT}.`)
 })
