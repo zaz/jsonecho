@@ -1,7 +1,6 @@
 const port = 1111
 const WS = require('ws')
 const wss = new WS.Server({port: port})
-const wrtc = require('wrtc')
 
 let id_to_ws = {}
 let ws_to_id = {}
